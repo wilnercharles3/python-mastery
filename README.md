@@ -36,7 +36,7 @@ python-mastery/
 ## How to run code
 
 ```bash
-python3 chapters/chXX-name/exercises/filename.py
+python chapters/chXX-name/exercises/filename.py
 ```
 
 ## Resources
