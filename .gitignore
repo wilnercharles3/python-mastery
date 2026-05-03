@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Personal scratch
+scratch/
+*.local.md
