@@ -44,3 +44,24 @@ After every concept Claude teaches, I articulate it in exactly 3 sentences: (1) 
 ## Five Mini-Projects per Chapter
 
 Each chapter has 5 objectives. Each objective gets a small portfolio-grade project living in `chapters/chXX-*/projects/<project-name>/` with its own README. By chapter end: 5 commits, 5 working tools.
+
+## Python Environment
+
+This project uses a Python 3.12 virtual environment located at `C:\Users\Cportable\venvs\python-mastery\`. The venv lives outside this repo intentionally — venvs should never be committed.
+
+Why a venv: isolates project dependencies, avoids polluting system Python, makes the project reproducible. PEP 668 also requires it for externally-managed Pythons like the uv-managed one we used here.
+
+Why Python 3.12 (not 3.14): 3.12 is the current stable target for the Python data-science ecosystem. 3.14 is too new and many wheels do not exist yet.
+
+Jupyter kernel display name: `Python 3.12 (mastery)`
+
+Activate the venv in Git Bash:
+`source /c/Users/Cportable/venvs/python-mastery/Scripts/activate`
+
+Deactivate:
+`deactivate`
+
+Install a package once activated:
+`pip install <package>`
+
+Known machine quirk: this Windows install has a missing `CSIDL_COMMON_APPDATA` registry value, which silently breaks Python 3.13 and system-Python 3.14's pip in different ways. The venv sidesteps this entirely. Non-blocking; can be repaired later by adding the registry key under `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Common AppData` pointing to `C:\ProgramData`.
