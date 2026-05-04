@@ -16,3 +16,7 @@
 
 ## Linked session logs
 - (link to entries in /session-logs)
+
+## Environment
+
+Notebook kernel: `Python 3.12 (mastery)`. See `docs/learning-system.md` for venv setup.
