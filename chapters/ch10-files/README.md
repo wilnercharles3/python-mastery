@@ -9,8 +9,8 @@ Reading and writing files in Python — pathlib, open(), shutil, walking directo
 
 ## Objectives
 
-- [ ] pathlib basics
-- [ ] open / read / write
-- [ ] working directory navigation
-- [ ] shutil copy / move / delete
-- [ ] walking trees with `os.walk` or `pathlib.rglob`
+- [x] pathlib basics
+- [x] open / read / write
+- [x] working directory navigation
+- [ ] shutil copy / move / delete  *(→ Ch 11)*
+- [ ] walking trees with `os.walk` or `

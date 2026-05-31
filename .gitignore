@@ -15,3 +15,8 @@ venvs/
 # Personal scratch
 scratch/
 *.local.md
+
+# Generated runtime output from chapter projects (templates kept, outputs not)
+chapters/**/projects/output.txt
+chapters/**/projects/notes.txt
+.ipynb_checkpoints/
