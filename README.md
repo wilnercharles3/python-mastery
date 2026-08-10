@@ -17,7 +17,7 @@ The Doc references commits and file paths here; the session logs here link back 
 
 ## 📍 Currently working on
 
-**Chapter 9 — Regex** (transitioning out of Chapter 8 — Strings)
+**Chapter 12 — Designing and Deploying Command Line Programs** (Ch 11 — Organizing Files completed 2026-08-09)
 
 ## 🔥 Streak
 
