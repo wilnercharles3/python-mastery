@@ -13,4 +13,9 @@ Reading and writing files in Python — pathlib, open(), shutil, walking directo
 - [x] open / read / write
 - [x] working directory navigation
 - [ ] shutil copy / move / delete  *(→ Ch 11)*
-- [ ] walking trees with `os.walk` or `
+- [ ] walking trees with `os.walk` or `pathlib.rglob`  *(→ Ch 11)*
+
+## Projects
+
+- `projects/quick_notes.py` — append-mode timestamped notes (core drill)
+- `projects/madlibs.py` — capstone: read template → fill placeholders → write output
